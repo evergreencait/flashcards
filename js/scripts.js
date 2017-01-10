@@ -1,21 +1,77 @@
 $(document).ready(function() {
   $("#javascript").click(function() {
-    $("#javascript-def").fadeIn();
+    $("#javascript-def").fadeToggle();
   });
 
   $("#operators").click(function() {
-    $("#operators-def").fadeIn();
+    $("#operators-def").fadeToggle();
   });
 
   $("#variables").click(function() {
-    $("#variables-def").fadeIn();
+    $("#variables-def").fadeToggle();
   });
 
   $("#namingVars").click(function() {
-    $("#variablename-def").fadeIn();
+    $("#variablename-def").fadeToggle();
   });
 
-  $("#namingVars").click(function() {
-    $("#variablename-def").fadeIn();
+  $("#functions").click(function() {
+    $("#functions-def").fadeToggle();
+  });
+
+  $("#methods").click(function() {
+    $("#methods-def").fadeToggle();
+  });
+
+  $("#arguments").click(function() {
+    $("#arguments-def").fadeToggle();
+  });
+
+  $("#parameters").click(function() {
+    $("#parameters-def").fadeToggle();
+  });
+
+  $("#return").click(function() {
+    $("#return-def").fadeToggle();
+  });
+
+  $("#chainingMethods").click(function() {
+    $("#chainingmethods-def").fadeToggle();
+  });
+
+  $("#strings").click(function() {
+    $("#strings-def").fadeToggle();
+  });
+
+  $("#booleans").click(function() {
+    $("#booleans-def").fadeToggle();
+  });
+
+  $("#undefined").click(function() {
+    $("#undefined-def").fadeToggle();
+  });
+
+  $("#nan").click(function() {
+    $("#nan-def").fadeToggle();
+  });
+
+  $("#escape").click(function() {
+    $("#escape-def").fadeToggle();
+  });
+
+  $("#alert").click(function() {
+    $("#alert-def").fadeToggle();
+  });
+
+  $("#comments").click(function() {
+    $("#comments-def").fadeToggle();
+  });
+
+  $("#jquery").click(function() {
+    $("#jquery-def").fadeToggle();
+  });
+
+  $("#attributes").click(function() {
+    $("#attributes-def").fadeToggle();
   });
 });
