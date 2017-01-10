@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Flash Cards</title>
   </head>
   <body>
-    <h1>Flashcards for terms that we've learned thus far..</h1>
+    <div class="container">
+      <h1>Flashcards for terms that we've learned thus far..</h1>
 
-    <ul>
-      <li>JavaScript (JS)</li>
-      <li>Operators</li>
-      <li>Variables</li>
-      <li>Variable naming conventions</li>
-      <li>Functions</li>
-      <li>Methods</li>
-      <li>Arguments</li>
-      <li>Parameters</li>
-      <li>Return</li>
-      <li>Chaining methods</li>
-      <li>Strings</li>
-      <li>Booleans</li>
-      <li>Undefined</li>
-      <li>NaN</li>
-      <li>Escape</li>
-      <li>Alert</li>
-      <li>Comments</li>
-      <li>jQuery</li>
-      <li>Attributes</li>
-    </ul>
+      <h2>There are 19 <strong>flashcards</strong></h2>
 
+      <p>Click the name of the term, and it will show its definition, then click it again to move to the next one</p>
+
+    <div class="clickable">
+      <ol>
+        <li id="javascript">JavaScript (JS)</li>
+        <p class="def-hidden" id="javascript-def">An object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+        <li id="operators">Operators</li>
+        <p class="def-hidden" id="operators-def">A symbol that is used to perform an operation i.e +, -, *, /, %, &&.</p>
+        <li id="variables">Variables</li>
+        <p class ="def-hidden" id="variables-def">The purpose of a variable is to store information (values, expressions) which can be used later.</p>
+        <li id="namingVars">Variable naming conventions</li>
+        <p class ="def-hidden" id="variablename-def">In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.</p>
+        <li id="functions">Functions</li>
+        <p class ="def-hidden" id="functions-def">Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value. In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object.</p>
+        <li id="methods">Methods</li>
+
+        <li id="arguments">Arguments</li>
+
+        <li id="parameters">Parameters</li>
+
+        <li id="return">Return</li>
+
+        <li id="chainingMethods">Chaining methods</li>
+
+        <li id="strings">Strings</li>
+
+        <li id="booleans">Booleans</li>
+
+        <li id="undefined">Undefined</li>
+
+        <li id="nan">NaN</li>
+
+        <li id="escape">Escape</li>
+
+        <li id="alert">Alert</li>
+
+        <li id="comments">Comments</li>
+
+        <li id="jquery">jQuery</li>
+
+        <li id="attributes">Attributes</li> -->
+
+      </ol>
+    </div>
 
   </body>
 </html>
