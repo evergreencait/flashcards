@@ -36,7 +36,7 @@ $(document).ready(function() {
   });
 
   $("#chainingMethods").click(function() {
-    $("#chainingmethods-def").fadeToggle();
+    $("#chainingMethods-def").fadeToggle();
   });
 
   $("#strings").click(function() {

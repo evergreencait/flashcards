@@ -1,3 +1,14 @@
+body {
+  background-color: teal;
+}
 .def-hidden {
   display: none;
+}
+
+li {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 10px;
 }
